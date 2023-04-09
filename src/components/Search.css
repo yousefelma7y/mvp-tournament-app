@@ -1,0 +1,16 @@
+.searh-res{
+  background-color: #e6e6e8;
+}
+.home-btn:hover{
+  background-color: #1cab5f !important;
+}
+
+
+@media only screen and (max-width: 471px) {
+  /* .date{
+    font-size: 13px !important;
+  } */
+  .date-data{
+    font-size: 10px !important;
+  }
+}

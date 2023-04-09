@@ -1,0 +1,77 @@
+.app {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 1vmin);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-header {
+  align-items: center;
+  color: white;
+}
+
+.rooms-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+.room {
+  flex-basis: 50%;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e6e8;
+  color: black;
+  margin: 0 2vw;
+}
+
+.single-score {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 2vw;
+  border-top: solid black 1px;
+}
+
+.prize {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+.prize-icon {
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rooms-btn{
+  background-color: #a881af !important; 
+}
+.rooms-btn:hover{
+  background-color: #80669d !important; 
+}
+.search-btn{
+  background-color:  #5adbb5 !important; 
+}
+.search-btn:hover{
+  background-color:   #5dbea3 !important; 
+}
+
+
+@media only screen and (max-width: 524px) {
+  .page-header{
+    font-size: 20px;
+  }
+}
